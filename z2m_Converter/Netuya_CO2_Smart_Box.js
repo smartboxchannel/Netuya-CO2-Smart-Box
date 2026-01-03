@@ -20,7 +20,7 @@ const co2Reporting = {min: 10, max: 600, change: 0.000001};
 
 
 const definition = {
-        zigbeeModel: ["Netuya_CO2_Smart_Box"],
+        zigbeeModel: ["Netuya_CO2_Smart_Box", "Netuya_CO2_Smart_Box_PA"],
         model: "Netuya_CO2_Smart_Box",
         vendor: "Efektalab",
         description: "CO2 Smart Monitor, rgb indicator, alarm, can control the relay",
@@ -191,5 +191,6 @@ const definition = {
             }),
         ],
     };
+
 
 module.exports = definition;
